@@ -18,8 +18,7 @@ input {
 li {
   margin: 10px;
 }
-body {
-}
+
 header {
   background-color: rgba(0, 0, 0, 0.466);
   padding: 7px;
@@ -50,6 +49,8 @@ button {
   padding: 10px 20px;
   border-radius: 5px;
   background-color: antiquewhite;
+  width: 120px;
+  height: 45px;
 }
 .faq-container {
   display: grid;
