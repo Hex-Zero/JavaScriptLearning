@@ -13,10 +13,15 @@ ul {
   align-items: center;
 }
 li {
-  margin: 16px;
+  margin: 12px;
+}
+body {
+  min-height: 100vh;
 }
 header {
+  margin-top: 10px;
   display: flex;
+  justify-content: space-evenly;
 }
 html {
   background-image: repeating-linear-gradient(
