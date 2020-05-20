@@ -28,8 +28,10 @@ header {
 main {
   padding: 30px;
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: auto auto;
   justify-content: center;
+  row-gap: 20px;
+  column-gap: 40px;
 }
 footer {
   position: absolute;
