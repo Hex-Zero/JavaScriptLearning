@@ -30,7 +30,7 @@ main {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
-  row-gap: 20px;
+  row-gap: 45px;
   column-gap: 40px;
 }
 footer {
@@ -45,7 +45,6 @@ footer {
   background-color: rgba(0, 0, 0, 0.774);
 }
 button {
-  margin-top: 20px;
   color: rgb(119, 0, 119);
   padding: 10px 20px;
   border-radius: 5px;
