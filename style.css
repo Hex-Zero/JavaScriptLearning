@@ -19,7 +19,6 @@ li {
   margin: 10px;
 }
 body {
-  min-height: 100vh;
 }
 header {
   background-color: rgba(0, 0, 0, 0.466);
@@ -34,9 +33,9 @@ main {
   justify-content: center;
   row-gap: 45px;
   column-gap: 40px;
+  min-height: 86vh;
 }
 footer {
-  position: absolute;
   font-size: 10px;
   bottom: 0;
   width: 100%;
