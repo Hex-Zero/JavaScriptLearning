@@ -42,7 +42,13 @@ footer {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.774);
 }
-
+button {
+  margin-top: 20px;
+  color: rgb(119, 0, 119);
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+}
 .faq-container {
   display: grid;
   grid-template-columns: auto auto auto;
