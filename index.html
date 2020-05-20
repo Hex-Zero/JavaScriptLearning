@@ -28,9 +28,22 @@
       <iframe src="faq.html"></iframe>
 
       <iframe src="https://www.wikipedia.org/"></iframe>
+
       <button type="button" onclick="example1()">I'm a button</button>
 
       <p id="demo"></p>
+
+      <form>
+        Enter a price:
+        <input
+          type="number"
+          id="price1"
+          min="1"
+          max="100"
+          onchange="checkRange()"
+        />
+        <p style="display: none;">Warning: you are within 20% of your limit.</p>
+      </form>
     </main>
     <footer>Copy righ &copy; Hex Zero 2020</footer>
   </body>

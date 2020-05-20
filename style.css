@@ -12,7 +12,9 @@ ul {
   display: flex;
   align-items: center;
 }
-
+input {
+  color: black;
+}
 li {
   margin: 10px;
 }
